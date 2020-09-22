@@ -19,7 +19,8 @@ function bstr() {
   for (var i = 0; i < board.length; i++) {
     for (var z = 0; z < board[i].length; z++) {
       //   /console.log(board[i][z]);
-      str += board[i][z] + " ";
+      if (board[i][z] == 1) str += "Y ";
+      else if (board[i][z] == 2) str += "R ";
     }
     str += "<br>";
   }
@@ -182,10 +183,13 @@ function domove(usercol) {
     }
     won = checkWinner();
     if (won) {
+      boardState = bstr();
       return `
         User <b>${turn}</b> won the game.
         <br>
         Send request to <b>/start</b> to reset the game.
+        <hr>
+        ${boardState}
         `;
     }
     updateTurn();
