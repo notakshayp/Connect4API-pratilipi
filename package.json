@@ -1,0 +1,19 @@
+{
+  "name": "connect4pkg",
+  "version": "1.0.0",
+  "description": "hackerearth hiring contest task",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/notakshayp/Connect4API-pratilipi.git"
+  },
+  "author": "Akshay P",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/notakshayp/Connect4API-pratilipi/issues"
+  },
+  "homepage": "https://github.com/notakshayp/Connect4API-pratilipi#readme"
+}
