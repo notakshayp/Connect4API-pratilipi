@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/notakshayp/Connect4API-pratilipi/issues"
   },
+  "engines": {
+    "node": "10.x"
+  },
   "homepage": "https://github.com/notakshayp/Connect4API-pratilipi#readme"
 }
