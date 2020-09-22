@@ -21,6 +21,9 @@ function bstr() {
       //   /console.log(board[i][z]);
       if (board[i][z] == 1) str += "Y ";
       else if (board[i][z] == 2) str += "R ";
+      else {
+        str += "# ";
+      }
     }
     str += "<br>";
   }
