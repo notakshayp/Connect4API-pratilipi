@@ -18,5 +18,8 @@
   "engines": {
     "node": "10.x"
   },
-  "homepage": "https://github.com/notakshayp/Connect4API-pratilipi#readme"
+  "homepage": "https://github.com/notakshayp/Connect4API-pratilipi#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
